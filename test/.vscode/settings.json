@@ -1,0 +1,17 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.fixAll.eslint": true,
+        "source.organizeImports": false,
+    },
+    "jslint.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "editor.snippetSuggestions": "inline",
+    "javascript.validate.enable": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "prettier.enable": false,
+    // "jshint.enable": false,
+    // "jshint.exclude": {
+    //     "**\\*.es6": true
+    // }
+}

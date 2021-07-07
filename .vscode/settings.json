@@ -1,0 +1,44 @@
+// {
+//     "editor.codeActionsOnSave": {
+//         "source.fixAll.eslint": true,
+//         "source.organizeImports": false,
+//     },
+//     "jslint.enable": false,
+//     "eslint.alwaysShowStatus": true,
+//     "editor.snippetSuggestions": "inline",
+//     "javascript.validate.enable": true,
+//     "js/ts.implicitProjectConfig.checkJs": true,
+//     // "jshint.enable": false,
+//     // "jshint.exclude": {
+//     //     "**\\*.es6": true
+//     // }
+// }
+{
+    // "[javascript]": {
+    //     // "editor.defaultFormatter": "vscode.typescript-language-features"
+    //     "editor.formatOnSave": false,
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "editor.formatOnSave": true,
+    // "editor.codeActionsOnSave": {
+    //     "source.organizeImports": true,
+    //     "source.fixAll.eslint": true
+    // },
+    // "prettier.disableLanguages": [
+    //     "js"
+    // ],
+    // "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "prettier.disableLanguages": [
+        "js"
+    ],
+    "jslint.enable": false,
+    "files.autoSave": "onFocusChange",
+}
